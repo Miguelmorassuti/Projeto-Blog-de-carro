@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto+Slab:wght@500&display=swap');
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+.title-head{
+    font-family: 'Bungee Inline', cursive;
+}
+
+section{
+    background-image: url('../images/pexels-aleksandar-pasaric-2434625.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-box{
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.bg-box2{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+#linkfooter:hover{
+    background-color: rgb(37, 37, 37);
+}

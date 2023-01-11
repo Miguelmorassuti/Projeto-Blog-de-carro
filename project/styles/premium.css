@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto+Slab:wght@500&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    font-family: 'Roboto Slab', serif;
+}
+
+.title-head{
+    font-family: 'Bungee Inline', cursive;
+}
+
+.imgPremium{
+   background-image: url('../images/premium.png');
+   width: 50%;
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#back-form{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0),  rgb(39, 38, 38), rgb(0,0,0));
+}
+
+
+footer{
+    background-image: linear-gradient(to top, rgb(32, 32, 32),  rgb(0, 0, 0), rgb(2, 2, 2));
+}
+
+nav{
+    background-image: linear-gradient(to bottom, rgb(32, 32, 32),  rgb(0, 0, 0), rgb(2, 2, 2));
+}
+
+#linkfooter:hover{
+    background-color: rgb(10, 10, 10);
+}
+
+#bg-notification{
+    background-color: rgb(2, 2, 2);
+}
+
+
+ @media screen and (max-width: 830px) {
+ 
+    .imgPremium{
+        display: none;
+    }
+
+    form{
+        width: 100%;
+    }
+ }
+
+ @media screen and (min-width: 831px) {
+    form{
+        width: 70%;
+        height: 100%;
+    }
+ }

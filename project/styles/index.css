@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto+Slab:wght@400&display=swap');
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/img-back.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    font-family: 'Roboto Slab', serif;
+}
+
+.title-head{
+    font-family: 'Bungee Shade', cursive;
+}
+
+nav#bg-navbar, .bg-footer{
+    background-color: rgba(36, 35, 35, 0.596);
+}
+
+.nav-select:hover{
+    background-color:rgb(71, 69, 69);
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #formLogin{
+        justify-content: center;
+        
+    }    
+
+    #box-form{
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    #formLogin{
+        justify-content: end;
+    }    
+}  
+
+
