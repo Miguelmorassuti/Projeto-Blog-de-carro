@@ -44,31 +44,33 @@
           </ul>
         </nav>
       </div>
+
+      <!--principal-->
       <div class="container is-flex is-flex-direction-row" id="formLogin" style="width: 100%;">
         <div class="columns is-flex">
           <div id="box-form" class="column is-12-tablet is-12-desktop is-12-widescreen" style="height: 300px;">
-            <form action="login" method="post" class="box" style="background-color: rgba(36, 35, 35, 0.596);">
+            <form action="login" method="post" class="box" id="forms">
               <div class="field">
-                <label for="" class="label has-text-white">Email</label>
+                <label for="iemail" class="label has-text-white">Email</label>
                 <div class="control has-icons-left">
-                  <input type="email" placeholder="ex. bobsmith@gmail.com" class="input" required>
+                  <input type="email" placeholder="ex. bobsmith@gmail.com" class="input" id="iemail" required>
                   <span class="icon is-small is-left">
                     <i class="fa fa-envelope"></i>
                   </span>
                 </div>
               </div>
               <div class="field">
-                <label for="" class="label has-text-white">Senha</label>
+                <label for="ipasword" class="label has-text-white">Senha</label>
                 <div class="control has-icons-left">
-                  <input type="password" placeholder="*******" class="input" required>
+                  <input type="password" placeholder="*******" class="input" id="ipasword" required>
                   <span class="icon is-small is-left">
                     <i class="fa fa-lock"></i>
                   </span>
                 </div>
               </div>
               <div class="field">
-                <label for="" class="checkbox has-text-white">
-                  <input type="checkbox">
+                <label for="icheck" class="checkbox has-text-white">
+                  <input id="icheck" type="checkbox">
                  Lembrar de mim
                 </label>
               </div>
@@ -91,7 +93,6 @@
       </footer>
 
     
-
     <script src="../js/index.js"></script>
     <script src="https://kit.fontawesome.com/4c26e921ef.js" crossorigin="anonymous"></script>
 </body>

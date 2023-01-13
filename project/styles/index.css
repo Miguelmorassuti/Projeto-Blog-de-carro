@@ -16,7 +16,7 @@ body{
     font-family: 'Bungee Shade', cursive;
 }
 
-nav#bg-navbar, .bg-footer{
+nav#bg-navbar, .bg-footer, #forms{
     background-color: rgba(36, 35, 35, 0.596);
 }
 
